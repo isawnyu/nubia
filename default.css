@@ -1,0 +1,467 @@
+/* 
+gold: rgb(138,107,54)
+tan: rgb(214,174,105)
+dark gold: rgb(61,45,18)
+light blue: rgb(54,95,138)
+dark blue: rgb(12,36,61)
+*/  
+
+body {
+    background-color:black;
+    color: white;
+    font-family: "AG Buch", Verdana, Arial, sans-serif;
+}
+#wrapper {
+    height: 100%;
+}
+#content {
+    width: 850px;
+    height: 100%;
+    padding: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#header {
+    margin: 0px;
+    font-family: impact, sans-serif;
+    width: 850px;
+}
+#header h1, #header h2, #header h3, #header h4 {
+    font-family: impact, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+#header h1, #header h2 {
+    text-transform: uppercase;
+}
+
+#heading {
+    width: 850px;
+}
+#hathor {
+    float: right;
+}
+h4 {
+    margin-top: 15px;
+    font-style: italic;
+}
+p {
+    font-size: .9em;
+}
+p.pulltext {
+    font-style: italic;
+}
+#heading {
+    float: left;
+}
+#header img {
+    float: right;
+    border: none;
+}
+h2 {
+    margin-bottom: 15px;
+    /* border-bottom: #888888 1px solid; */
+}
+#header h2 {
+    border: none;
+}
+#body, #body-home {
+    clear: both;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#body-home {
+    padding-top: 0px;
+}
+#body h2 {
+    margin-top: 10px;
+    font-size: 1.7em;
+}
+#header h1, #header h2 {
+    font-size: 3em;
+}
+#header h3 {
+    font-size: 2em;
+}
+a, a:visited {
+    text-decoration: none;
+    color: red;
+}
+a:active, a:hover {
+    text-decoration: underline;
+}
+h1 a, h1 a:visited, h1 a:active, h1 a:hover {
+    text-decoration: none;
+    color: white;
+}
+h2 a, h2 a:visited, h2 a:active, h2 a:hover {
+    text-decoration: none;
+    color: rgb(138,107,54);
+}
+h3 a, h3 a:visited, h3 a:active, h3 a:hover {
+    text-decoration: none;
+    color: white;
+}
+#footer {
+    clear: both; 
+    border-top: #888888 1px solid;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: Arial, sans-serif;
+    height: 5.5em;
+    font-size: .9em;
+}
+#footer a, #footer a:visited {
+    color: white;
+}
+#left-footer {
+    width: 40%;
+    float: left;
+}
+
+#logo-footer {
+    margin-top: 0.75em;
+    margin-right: 0.75em;
+    float: left;
+}
+#right-footer {
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+#left {
+    width: 256px; 
+    float: left;
+    padding-right: 10px;
+}
+#right {
+    padding-top: 5px;
+}
+.highlight, .previous {
+    padding-top: 0px;
+    padding-bottom: 20px; 
+    clear: both;
+}
+.highlight .image, .previous .image {
+    width: 208px;
+    padding-top: 40px;
+    float: left;
+}
+.highlight .image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px white solid;
+}
+.previous .image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.highlight .label, .previous .label {
+    padding-top: 20px;
+    padding-left: 220px;
+}
+.highlight .label h3, .previous .label h3 {
+    border-bottom: #888888 1px solid;
+}
+.highlight .label h3 a:hover, .previous .label h3 a:hover {
+    text-decoration: none;
+}
+.highlight .label h4, .previous .label h4 {
+    font-size: .8em;
+    font-weight: normal;
+}
+.highlight .label p, .previous .label p {
+    font-size: .8em;
+}
+p.image-credit {
+    font-style: italic;
+    
+}
+
+#map{
+    height: 500px;
+    width: 370px;
+    float: right;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#map_canvas {
+    height: 500px;
+    width: 350px;
+    float: right;
+}
+#location, #hours, #directions {
+    width: 420px;
+}
+ 
+#hours, #directions {
+        margin-top: 40px;
+
+}
+#highlight-pane {
+    float: right;
+}
+#highlight-text {
+    width: 370px;
+}
+.caption {
+    text-align: left;
+    font-size: 0.8em;
+    font-style: italic;
+    margin: 0px;
+    padding: 0px;
+}
+.highlight-image {
+    padding-bottom: 20px;
+}
+.highlight-image .caption {
+    padding-left: 30px;
+}
+.illustrated-text {
+    clear: both;
+    padding-top: 20px;
+    
+}
+.text-illustration, .text-illustration-borderless {
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-bottom: auto;
+}
+.text-illustration img {
+    border: #EEEEEE 4px solid;
+    margin: 0px;
+    padding: 0px;
+}
+.text-illustration-borderless img {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.illustrated-text p, #highlight-text p, .bibliography li {
+        line-height: 1.3em;
+
+}
+
+/* main links in text */
+body p a, body p a:visited, ul a, ul a:visited, .illustrated-text a, .illustrated-text a:visited, .label p a, .label p a:visited, #highlight-text a, #highlight-text a:visited, .bibliography a {
+    text-decoration: none;
+    color:  rgb(214,174,105);
+}
+body p a:hover, .illustrated-text a:hover, .label p a:hover, #highlight-text a:hover, .bibliography a:hover {
+    text-decoration: underline;
+}
+ul.bibliography {
+    list-style: none;
+    text-indent: -25px;
+    padding-left: 25px;
+}
+ul.bibliography li {
+    margin-top: 1em;
+    font-size: .9em;
+}
+
+.description {
+    padding-left: 215px;
+}
+.description-275 {
+    padding-left: 275px;
+    
+}
+:lang(fr) {    font-style: italic;
+}
+
+
+#here {
+    background-color: rgb(214,174,105);
+    text-shadow: none;
+}
+#here a, #here a:visited {
+    color: black;
+}
+#here span a, #here span a:visited {
+    color: white;
+}
+
+#menu {
+    width: 850px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    clear: both;
+}
+#menu div {
+    display: none;
+    width: 19.75%;
+    float: left;
+    border: #888888 1px solid;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.8em;
+    position: relative;
+    z-index: 0;
+}
+ul#topnav {
+	margin: 0; padding: 0;
+	float: left;
+	width: 850px;
+	list-style: none;
+	position: relative; /*--Set relative positioning on the unordered list itself - not on the list item--*/
+	font-size: .95em; 
+	
+	/* background: url(topnav_stretch.gif) repeat-x; */
+	background: rgb(61,45,18);
+}
+ul#topnav li {
+	float: left; 
+	margin: 0; padding: 0; 
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 1px solid #888888; /*--Divider for each parent level links--*/
+}
+ul#topnav li a {
+	padding: 3px 15px;
+	padding-bottom: 4px;
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+	font-family: "AG Buch", Verdana, Arial, sans-serif;
+}
+ul#topnav li:hover { background: rgb(138,107,54);}
+/*--Notice the hover color is on the list item itself, not on the link. This is so it can stay highlighted even when hovering over the subnav--*/
+
+ul#topnav li:hover span {position: absolute;
+z-index: 1;}
+/* submenu */
+ul#topnav li span {
+	text-align: center;
+	padding: 3px 0;
+	padding-bottom: 4px;
+	position: absolute;
+	left: 0; top:24px;
+	display: none; /*--Hide by default--*/
+	width: 850px;
+	background: rgb(138,107,54);
+	color: #fff;
+	/*--Bottom right rounded corner--*/
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	/*--Bottom left rounded corner--*/
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+ul#topnav li.open {
+    background-color: rgb(138,107,54);
+}
+ul#topnav li.open span {
+    display: block;
+}
+ul#topnav li.open span a#here {
+    background: rgb(214,174,105);
+    color: black;
+}
+ul#topnav li:hover span { display: block; } /*--Show subnav on hover--*/
+ul#topnav li span a { display: inline; } /*--Since we declared a link style on the parent list link, we will correct it back to its original state--*/
+ul#topnav li span a:hover {text-decoration: underline;}
+
+.credit {
+    font-style: italic;
+        margin-top: 40px;
+
+}
+.center-illustration {
+    width: 750px;
+        margin-left: auto;
+    margin-right: auto;
+}
+
+.center-illustration a, .center-illustration a:visited {
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+a.addthis_button {
+    color: rgb(214,174,105) !important;
+}
+
+.callout-right {
+    float: right;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    border: 1px solid #DDD;
+    width: 250px;
+}
+
+.event {
+    width: 470px;
+}
+
+.event p {
+    padding-right: 20px;
+}
+
+.event h3 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: 1px white solid;
+    margin-top: 40px;
+}
+
+.map-caption {
+    font-style: italic;
+    font-size: 75%;
+    text-align: center;
+}
+
+.object {clear: both;
+    padding-top: 20px;
+    }
+.object-image {
+    float: right;
+    background-color: white;
+    padding-left: 4px;
+    padding-bottom: 3px;
+    border-left: 1px solid black;
+    margin-left: 10px;
+}
+.object-image img { 
+border: none; 
+margin-right: 4px; 
+margin-top: 4px;
+width: 150px;}
+.object p {padding: 10px;
+margin-bottom: 0px;
+margin-top: 0px;
+background-color: #555;
+}
+p.identifier {
+    font-size: 78%;
+    font-style: italic;
+    padding-top: 0px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.highlight p.identifier {
+    padding-left: 0px;
+}
+
+#map a img, #footer a img {
+    border: none;
+    text-decoration: none;
+    color: black;
+}

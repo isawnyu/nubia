@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Nubia: Ancient Kingdoms of Africa</title>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-context-min.css"/>
+        <style type="text/css">
+            #splash {
+                background-color: black;
+                color: white;
+                font-family: "AG Buch", Verdana, Arial, sans-serif;
+            }
+            #wrapper {
+                width: 1024px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+            }
+            #header {
+                font-family: impact, sans-serif;
+            }
+            h1, h2, h3 {
+                color: white;
+                font-weight: normal;
+                padding: 0px;
+                margin: 0px;
+            }
+            h1, h2 {
+                font-size: 80px;
+                text-transform: uppercase;
+                line-height: 92px;
+            }
+            h2 {
+                color: rgb(138,107,54);
+            }
+            h3 {
+                font-size: 30px;
+            }
+            #content {
+                padding-bottom: 15px;
+            }
+           .left, .right {
+                width: 502px;
+                margin: 0px;
+                padding: 0px;
+                padding-bottom: 15px;
+               }
+            .left {
+                float: left;
+                padding-top: 15px;
+            }
+            #hours p {
+                font-size: 22px;
+            }
+            #blurb p {
+                font-size: 18px;
+                padding-top: 15px;
+            }
+            #credit {
+                margin-top: 30px;
+            }
+            #credit p {
+                font-size: 12px;
+                font-style: italic;
+            }
+            .right {
+                float: right;
+            }
+            #image {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #image img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #caption {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #caption p {
+                font-style: italic;
+                text-align: left;
+                font-size: 12px;
+            }
+            #footer {
+                clear: both;
+                border-top: 1px solid rgb(200,200,200);
+                margin-top: 40px;
+                padding-top: 20px;
+                font-size: 12px;
+            }
+            #logo {
+                float: left;
+                padding-right: 10px;
+            }
+            #footer .right {
+                text-align: right;
+            }
+            #footer .right, #footer .left {
+                padding: 0px;
+                margin: 0px;
+            }
+            #footer .right p, #footer .left p {
+                padding: 0px;
+                margin: 0px;
+            }
+            a, a:link, a:visited {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                color: rgb(138,107,54);
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body id="splash">
+        <div id="wrapper"><div id="header">
+                <h1>Nubia</h1>
+                <h2>Ancient Kingdoms of Africa</h2>
+                <h3>March 11 – June 12, 2011</h3>
+            </div>
+            <div id="content"><div class="left">
+                    <div id="hours"><p><a onclick="window.open(this.href);return false;"
+                                href="http://www.nyu.edu/isaw/"
+                                title="Visit the website of the Institute for the Study of the Ancient World"
+                                >Institute for the Study of the Ancient World</a><br /> New York
+                            University<br /> 15 East 84th Street, New York, NY 10028</p>
+                        <p>Hours: 11 am–6 pm<br /> Friday: 11 am–8 pm<br /> Closed Monday<br /> FREE
+                            ADMISSION</p></div>
+                    <div id="blurb">
+                        <p><i>Nubia: Ancient Kingdoms of Africa</i> will feature over 120 objects
+                            illustrating the remarkable and distinctive aesthetics of Nubian art.
+                            The exhibition traces Nubia’s rich culture, which flourished in present
+                            day Sudan and southern Egypt, from its earliest kingdoms (3200–3000 BC)
+                            to the Kushite period (900–400 BC) during which Nubians rose to conquer
+                            Egypt and fought against the Assyrian empire.</p>
+                        <p>This is the first exhibition in New York in more than three decades to
+                            focus on Nubian culture, providing an unparalleled overview of these
+                            rich but little understood African kingdoms.</p></div>
+                    <div id="credit">
+                        <p>This exhibition was organized by the <a
+                                onclick="window.open(this.href);return false;"
+                                href="http://www.mfa.org/">Museum of Fine Arts, Boston</a>.
+                            Supplemental material was loaned by the <a
+                                onclick="window.open(this.href);return false;"
+                                href="http://www.metmuseum.org/">Metropolitan Museum of Art</a>
+                            specially for the ISAW presentation.</p>
+                        <p>This exhibition was made possible through the support of the <a
+                                onclick="window.open(this.href);return false;"
+                                href="http://leonlevyfoundation.org/">Leon Levy Foundation</a>.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="image">
+                        <img src="images/hathor-pendant-502.jpg" alt="Hathor-headed crystal pendant"
+                         />
+                    </div>
+                    <div id="caption">
+                        <p>Gold and rock crystal, El-Kurru, 743–712 BC (Napatan Period, reign of
+                            Piye).<br /> Harvard University—Boston Museum of Fine Arts Expedition:
+                            21.321<br /> Photography © 2011 Museum of Fine Arts, Boston</p>
+                    </div>
+                </div></div>
+            <div id="footer">
+                <div class="left"><div id="logo"><a onclick="window.open(this.href);return false;"
+                            href="http://www.nyu.edu/isaw/"
+                            title="Visit the website of the Institute for the Study of the Ancient World"
+                                ><img src="images/isaw-logo.jpg"
+                                alt="ISAW logo: four stacked squares each containing a letter (I, S, A, W)"
+                             /></a></div>
+                    <p><a onclick="window.open(this.href);return false;"
+                            href="http://www.nyu.edu/isaw/"
+                            title="Visit the website of the Institute for the Study of the Ancient World"
+                            >Institute for the Study of the Ancient World</a><br /> New York
+                        University<br />15 East 84th Street, New York City</p>
+                    <p>FREE ADMISSION</p>
+                </div>
+                <div class="right">
+                    <p>Unless otherwise indicated, all content is<br />Copyright New York
+                        University.<br />All rights reserved.</p>
+                    <p><a href="http://www.addthis.com/bookmark.php" style="text-decoration:none;"
+                            class="addthis_button" shape="rect">Click to bookmark or share</a></p>
+                    <script type="text/javascript" xml:space="preserve">var addthis_config = {"data_track_clickback":true};</script>
+                    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=paregoriosisaw" xml:space="preserve"></script>
+                </div>
+            </div></div>
+    </body>
+</html>

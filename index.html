@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Nubia: Ancient Kingdoms of Africa</title>
+        <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.3.0/build/cssreset/reset-context-min.css"/>
+        <style type="text/css">
+            #splash {
+                background-color: black;
+                color: white;
+                font-family: "AG Buch", Verdana, Arial, sans-serif;
+            }
+            #wrapper {
+                width: 1024px;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+            }
+            #header {
+                font-family: impact, sans-serif;
+            }
+            h1, h2, h3 {
+                color: white;
+                font-weight: normal;
+                padding: 0px;
+                margin: 0px;
+            }
+            h1, h2 {
+                font-size: 80px;
+                text-transform: uppercase;
+                line-height: 92px;
+            }
+            h2 {
+                color: rgb(138,107,54);
+            }
+            h3 {
+                font-size: 30px;
+            }
+            #content {
+                padding-bottom: 15px;
+            }
+           .left, .right {
+                width: 502px;
+                margin: 0px;
+                padding: 0px;
+                padding-bottom: 15px;
+               }
+            .left {
+                float: left;
+                padding-top: 15px;
+            }
+            #hours p {
+                font-size: 22px;
+            }
+            #blurb p {
+                font-size: 18px;
+                padding-top: 15px;
+            }
+            #credit {
+                margin-top: 30px;
+            }
+            #credit p {
+                font-size: 12px;
+                font-style: italic;
+            }
+            .right {
+                float: right;
+            }
+            #image {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #image img {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #caption {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #caption p {
+                font-style: italic;
+                text-align: left;
+                font-size: 12px;
+            }
+            #footer {
+                clear: both;
+                border-top: 1px solid rgb(200,200,200);
+                margin-top: 40px;
+                padding-top: 20px;
+                font-size: 12px;
+            }
+            #logo {
+                float: left;
+                padding-right: 10px;
+            }
+            #footer .right {
+                text-align: right;
+            }
+            #footer .right, #footer .left {
+                padding: 0px;
+                margin: 0px;
+            }
+            #footer .right p, #footer .left p {
+                padding: 0px;
+                margin: 0px;
+            }
+            a, a:link, a:visited {
+                color: white;
+                text-decoration: none;
+            }
+            a:hover {
+                color: rgb(138,107,54);
+                text-decoration: underline;
+            }
+            #menu {
+    width: 1024px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    clear: both;
+}
+#menu div {
+    display: none;
+    width: 19.75%;
+    float: left;
+    border: #888888 1px solid;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 0.8em;
+    position: relative;
+    z-index: 0;
+}
+ul#topnav {
+	margin: 0; padding: 0;
+	float: left;
+	width: 1024px;
+	list-style: none;
+	position: relative; /*--Set relative positioning on the unordered list itself - not on the list item--*/
+	font-size: .95em; 
+	
+	/* background: url(topnav_stretch.gif) repeat-x; */
+	background: rgb(61,45,18);
+}
+ul#topnav li {
+	float: left; 
+	margin: 0; padding: 0; 
+	margin-left: auto;
+	margin-right: auto;
+	border-right: 1px solid #888888; /*--Divider for each parent level links--*/
+}
+ul#topnav li a {
+	padding: 3px 15px;
+	padding-bottom: 4px;
+	display: block;
+	color: #f0f0f0;
+	text-decoration: none;
+	font-family: "AG Buch", Verdana, Arial, sans-serif;
+}
+ul#topnav li:hover { background: rgb(138,107,54);}
+/*--Notice the hover color is on the list item itself, not on the link. This is so it can stay highlighted even when hovering over the subnav--*/
+
+ul#topnav li:hover span {position: absolute;
+z-index: 1;}
+/* submenu */
+ul#topnav li span {
+	text-align: center;
+	padding: 3px 0;
+	padding-bottom: 4px;
+	position: absolute;
+	left: 0; top:24px;
+	display: none; /*--Hide by default--*/
+	width: 1024px;
+	background: rgb(138,107,54);
+	color: #fff;
+	/*--Bottom right rounded corner--*/
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	/*--Bottom left rounded corner--*/
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+ul#topnav li.open {
+    background-color: rgb(138,107,54);
+}
+ul#topnav li.open span {
+    display: block;
+}
+ul#topnav li.open span a#here {
+    background: rgb(214,174,105);
+    color: black;
+}
+ul#topnav li:hover span { display: block; } /*--Show subnav on hover--*/
+ul#topnav li span a { display: inline; } /*--Since we declared a link style on the parent list link, we will correct it back to its original state--*/
+ul#topnav li span a:hover {text-decoration: underline;}
+        </style>
+    </head>
+    <body id="splash">
+        <div id="wrapper"><div id="header">
+                <div id="heading"><h1>Nubia</h1>
+                <h2>Ancient Kingdoms of Africa</h2>
+                <h3>March 11 – June 12, 2011</h3></div>
+            <div id="menu"><ul id="topnav"><li><a href="intro.html">introduction</a></li><li><a href="map.html">map/timeline</a></li><li><a href="#">objects</a><span><a href="highlights.html">highlights</a><a href="checklist.html">checklist of objects on display</a></span></li><li><a href="curators.html">curators</a></li><li><a href="where.html">location/hours</a></li><li><a href="#">resources</a><span><a href="bibliography.html">select bibliography</a><a href="links.html">links to lenders and related websites</a></span></li><li><a href="#">more</a><span><a href="programs.html">public programs and education</a><a href="press.html">press</a><a href="previous.html">previous exhibitions</a><a href="email.html">email list</a></span></li></ul></div>
+            </div>
+            <div id="content"><div class="left">
+                    <div id="hours"><p><a onclick="window.open(this.href);return false;"
+                                href="http://www.nyu.edu/isaw/"
+                                title="Visit the website of the Institute for the Study of the Ancient World"
+                                >Institute for the Study of the Ancient World</a><br /> New York
+                            University<br /> 15 East 84th Street, New York, NY 10028</p>
+                        <p>Hours: 11 am–6 pm<br /> Friday: 11 am–8 pm<br /> Closed Monday<br /> FREE
+                            ADMISSION</p></div>
+                    <div id="blurb">
+                        <p><i>Nubia: Ancient Kingdoms of Africa</i> features over 120 objects
+                            illustrating the remarkable and distinctive aesthetics of Nubian art.
+                            The exhibition traces Nubia’s rich culture, which flourished in present
+                            day Sudan and southern Egypt, from its earliest kingdoms (3200–3000 BC)
+                            to the Kushite period (900–400 BC) during which Nubians rose to conquer
+                            Egypt and fought against the Assyrian empire.</p>
+                        <p>This is the first exhibition in New York in more than three decades to
+                            focus on Nubian culture, providing an unparalleled overview of these
+                            rich but little understood African kingdoms.</p></div>
+                    <div id="credit">
+                        <p>This exhibition was organized by the <a
+                                onclick="window.open(this.href);return false;"
+                                href="http://www.mfa.org/">Museum of Fine Arts, Boston</a>.
+                            Supplemental material was loaned by the <a
+                                onclick="window.open(this.href);return false;"
+                                href="http://www.metmuseum.org/">Metropolitan Museum of Art</a>
+                            specially for the ISAW presentation.</p>
+                        <p>This exhibition was made possible through the support of the <a
+                                onclick="window.open(this.href);return false;"
+                                href="http://leonlevyfoundation.org/">Leon Levy Foundation</a>.</p>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="image">
+                        <img src="images/hathor-pendant-502.jpg" alt="Hathor-headed crystal pendant"
+                         />
+                    </div>
+                    <div id="caption">
+                        <p>Gold and rock crystal, El-Kurru, 743–712 BC (Napatan Period, reign of
+                            Piye).<br /> Harvard University—Boston Museum of Fine Arts Expedition:
+                            21.321<br /> Photography © 2011 Museum of Fine Arts, Boston</p>
+                    </div>
+                </div></div>
+            <div id="footer">
+                <div class="left"><div id="logo"><a onclick="window.open(this.href);return false;"
+                            href="http://www.nyu.edu/isaw/"
+                            title="Visit the website of the Institute for the Study of the Ancient World"
+                                ><img src="images/isaw-logo.jpg"
+                                alt="ISAW logo: four stacked squares each containing a letter (I, S, A, W)"
+                             /></a></div>
+                    <p><a onclick="window.open(this.href);return false;"
+                            href="http://www.nyu.edu/isaw/"
+                            title="Visit the website of the Institute for the Study of the Ancient World"
+                            >Institute for the Study of the Ancient World</a><br /> New York
+                        University<br />15 East 84th Street, New York City</p>
+                    <p>FREE ADMISSION</p>
+                </div>
+                <div class="right">
+                    <p>Unless otherwise indicated, all content is<br />Copyright New York
+                        University.<br />All rights reserved.</p>
+                    <p><a href="http://www.addthis.com/bookmark.php" style="text-decoration:none;"
+                            class="addthis_button" shape="rect">Click to bookmark or share</a></p>
+                    <script type="text/javascript" xml:space="preserve">var addthis_config = {"data_track_clickback":true};</script>
+                    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#username=paregoriosisaw" xml:space="preserve"></script>
+                </div>
+            </div></div>
+    </body>
+</html>
